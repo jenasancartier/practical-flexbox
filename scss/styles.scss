@@ -1,0 +1,30 @@
+
+.example-layout {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 300px);
+}
+
+header, footer {
+  padding: 20px;
+  background: #666;
+  color: white;
+}
+
+.body {
+  display: flex;
+  flex-grow: 1;
+  background: pink;
+  .col-1 {
+    background: lightblue;
+    flex-grow: 1;
+  }
+  .col-2 {
+    background: honeydew;
+    width: 160px;
+  }
+  .col-3 {
+    background: peachpuff;
+    width: 160px;
+  }
+}

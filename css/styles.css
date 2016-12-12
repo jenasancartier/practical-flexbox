@@ -1,0 +1,25 @@
+.example-layout {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 300px); }
+
+header, footer {
+  padding: 20px;
+  background: #666;
+  color: white; }
+
+.body {
+  display: flex;
+  flex-grow: 1;
+  background: pink; }
+  .body .col-1 {
+    background: lightblue;
+    flex-grow: 1; }
+  .body .col-2 {
+    background: honeydew;
+    width: 160px; }
+  .body .col-3 {
+    background: peachpuff;
+    width: 160px; }
+
+/*# sourceMappingURL=styles.css.map */
