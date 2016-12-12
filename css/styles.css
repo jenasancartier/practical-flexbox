@@ -17,9 +17,18 @@ header, footer {
     flex-grow: 1; }
   .body .col-2 {
     background: honeydew;
-    width: 160px; }
+    width: 160px;
+    order: -1; }
   .body .col-3 {
     background: peachpuff;
     width: 160px; }
+
+@media (max-width: 800px) {
+  .body {
+    flex-direction: column; }
+    .body .col-2, .body .col-3 {
+      width: auto; }
+    .body .col-2 {
+      order: 0; } }
 
 /*# sourceMappingURL=styles.css.map */
